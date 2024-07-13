@@ -41,6 +41,7 @@ Oxford Book Store is a comprehensive online bookstore project built to facilitat
 
 # Database
 -- DATABASE CREATING
+```
 CREATE DATABASE IF NOT EXISTS OxfordBookStore;
 USE OxfordBookStore;
 
@@ -64,7 +65,7 @@ CREATE TABLE IF NOT EXISTS books(
     quantity INT
 );
 
-```
+
 INSERT INTO books VALUES('100000', 'Introduction to Algorithms', 'Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein', 1292, 10);
 INSERT INTO books VALUES('100001', 'Artificial Intelligence: A Modern Approach', 'Stuart Russell, Peter Norvig', 1152, 7);
 INSERT INTO books VALUES('100002', 'Computer Networking: A Top-Down Approach', 'James Kurose, Keith Ross', 888, 12);
@@ -128,3 +129,4 @@ INSERT INTO books VALUES('100059', 'React Up and Running', 'Stoyan Stefanov', 20
 INSERT INTO books VALUES('100060', 'JavaScript and HTML5 Now', 'Kyle Simpson', 210, 9);
 INSERT INTO users VALUES('Admin','Admin','Mr.Admin','Admin','Haldia WB','100001','admin@gmail.com',1);
 COMMIT;
+```
